@@ -1,94 +1,91 @@
-\# Masterwatch Patch Notes
-
-
+# 🛡️ Masterwatch Patch Notes
 
 All game features are subject to change until a major release, stay tuned and reach out if you want something to change/improve.
 
+## v0.0.4
 
+- Initialized logging and update infrastructure.
+- Backend groundwork for patching system complete.
 
-\## v0.0.4:
+## v0.0.5
 
-\- Initialized logging and update infrastructure.
+- Added new Village system and gold collection features.
+- Polish for character creation and player search.
 
-\- Backend groundwork for patching system complete.
+## v0.1.1
 
+**Progression:**
+- Switched focus to Total Skill XP.
+- Implemented Player General XP for main leveling.
 
+**Gathering:**
+- Added AutoBoost progress, left-nav activity trackers, and fishing item icons/selectable zones.
 
-\## v0.0.5:
+**UI/UX:**
+- Standardized Crafting, Cooking, and Smelting with unified layouts and new item icons.
 
-\- Added new Village system and gold collection features.
+**Town & Shop:**
+- Moved Shop to TownView.
+- Added a dedicated VIP Shop for gems.
 
-\- Polish for character creation and player search.
+**Market:**
+- Market UI improvements with search and improved listing flow.
 
+**Feedback:**
+- Added real-time notifications for market sales, offline messaging, and item drop popups.
 
+## v0.1.2
 
-\## v0.1.1:
+**Architectural Cleanup:**
+- Began major refactor of the GameState monolith into a more controlled management script.
 
-\- \*\*Progression\*\*: Switched focus to \*\*Total Skill XP\*\*; implemented Player General XP for main leveling.
+**Optimization:**
+- General performance pass and minor system bug fixes.
 
-\- \*\*Gathering\*\*: Added AutoBoost progress, left-nav activity trackers, and fishing item icons/selectable zones.
+## v0.1.3
 
-\- \*\*UI/UX\*\*: Standardized Crafting, Cooking, and Smelting with unified layouts and new item icons.
+**Skill/XP Update:**
+- Refine player general leveling and skills to use only their total XP as measurement.
 
-\- \*\*Town \& Shop\*\*: Moved Shop to TownView; added a dedicated \*\*VIP Shop\*\* for gems.
+**Attributes:**
+- Character Attributes system implemented (ongoing development).
 
-\- \*\*Market\*\*: Market UI improvements with search and improved listing flow.
+**UI Refresh:**
+- Event log transformed into a cleaner, toggleable "Time-Since" style utility with color-coded legends.
 
-\- \*\*Feedback\*\*: Added real-time notifications for market sales, offline messaging, and item drop popups.
+**World Bosses:**
+- New Boss UI with damage leaderboards, hit cooldown delay to prevent double-kills, and rebalanced spawns.
 
+**Admin Tools:**
+- Full redesign of the Admin Overlay for better moderation and debugging.
 
+## v0.1.4
 
-\## v0.1.2:
+**Village Systems:**
+- Redesigned unit movement (Infantry front/Archers back).
+- Fixed top-left spawn bug. 
+- Standardized village cycle ticks to UTC intervals (00:00, 00:30, etc.). 
 
-\- \*\*Architectural Cleanup\*\*: Began major refactor of the \*\*GameState monolith\*\* into a more controlled management script.
+**Village Reset:**
+- Global reset.
+- Test Mode restricted to Admin Overlay only.
 
-\- \*\*Optimization\*\*: General performance pass and minor system bug fixes.
+**Academy:**
+- Fixed double XP payout bug.
 
+**UI Scaling:**
+- Re-scaled the default UI (100% now looks like the previous 70%) to use extra space effectively.
 
+**Social Features:**
+- Launched Leaderboard view and real-time Online Player List.
 
-\## v0.1.3:
+**Player Profiles:**
+- Added clickable names for profile visits and a new Like/Dislike system tracked in Supabase.
 
-\- \*\*Skill/XP Update\*\*: Refine player general leveling and skills to use only their total XP as measurement.
+## v0.1.5
 
-\- \*\*Attributes\*\*: Character Attributes system implemented (ongoing development).
+**Combat:**
+- Detailed pass on fight stances and the Training Bonus system.
+- Improved transparency on triggers.
 
-\- \*\*UI Refresh\*\*: Event log transformed into a cleaner, toggleable "Time-Since" style utility with color-coded legends.
-
-\- \*\*World Bosses\*\*: New Boss UI with damage leaderboards, hit cooldown delay to prevent double-kills, and rebalanced spawns.
-
-\- \*\*Admin Tools\*\*: Full redesign of the Admin Overlay for better moderation and debugging.
-
-
-
-\## v0.1.4
-
-\- \*\*Village Systems\*\*: Redesigned unit movement (Infantry front/Archers back). Fixed top-left spawn bug. Standardized village cycle ticks to UTC intervals (00:00, 00:30, etc.).
-
-\- \*\*Village Reset\*\*: Global reset; Test Mode restricted to Admin Overlay only.
-
-\- \*\*Academy\*\*: Fixed double XP payout bug.
-
-\- \*\*UI Scaling\*\*: Re-scaled the default UI (100% now looks like the previous 70%) to use extra space effectively.
-
-\- \*\*Social Features\*\*: Launched Leaderboard view and real-time Online Player List.
-
-\- \*\*Player Profiles\*\*: Added clickable names for profile visits and a new Like/Dislike system tracked in Supabase.
-
-
-
-\## v0.1.5
-
-\- \*\*Combat\*\*: Detailed pass on fight stances and the Training Bonus system; improved transparency on triggers.
-
-\- \*\*Gathering\*\*: Update and visual polish for the GatherView.
-
-\- \*\*Inventory\*\*: Added "Sort by Quantity" in backpack and rare item selling guardrails.
-
-\- \*\*Polish\*\*: Continued refactor and formatting for a more fluent, informative UI without clutter.
-
-\- \*\*Customize\*\*: Added light/dark mode  switch option to customize.
-
-\- \*\*World Bosses\*\*: Polishing how world boss damage distribution works and how rewards are allocated.
-
-
-
+**Gathering:**
