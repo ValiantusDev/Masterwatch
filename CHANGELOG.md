@@ -58,3 +58,37 @@ All game features are subject to change until a major release, stay tuned and re
 
 \- \*\*Admin Tools\*\*: Full redesign of the Admin Overlay for better moderation and debugging.
 
+
+
+\## v0.1.4
+
+\- \*\*Village Systems\*\*: Redesigned unit movement (Infantry front/Archers back). Fixed top-left spawn bug. Standardized village cycle ticks to UTC intervals (00:00, 00:30, etc.).
+
+\- \*\*Village Reset\*\*: Global reset; Test Mode restricted to Admin Overlay only.
+
+\- \*\*Academy\*\*: Fixed double XP payout bug.
+
+\- \*\*UI Scaling\*\*: Re-scaled the default UI (100% now looks like the previous 70%) to use extra space effectively.
+
+\- \*\*Social Features\*\*: Launched Leaderboard view and real-time Online Player List.
+
+\- \*\*Player Profiles\*\*: Added clickable names for profile visits and a new Like/Dislike system tracked in Supabase.
+
+
+
+\## v0.1.5
+
+\- \*\*Combat\*\*: Detailed pass on fight stances and the Training Bonus system; improved transparency on triggers.
+
+\- \*\*Gathering\*\*: Update and visual polish for the GatherView.
+
+\- \*\*Inventory\*\*: Added "Sort by Quantity" in backpack and rare item selling guardrails.
+
+\- \*\*Polish\*\*: Continued refactor and formatting for a more fluent, informative UI without clutter.
+
+\- \*\*Customize\*\*: Added light/dark mode  switch option to customize.
+
+\- \*\*World Bosses\*\*: Polishing how world boss damage distribution works and how rewards are allocated.
+
+
+
